@@ -16,7 +16,9 @@ spring:
   profiles: sentence
 server:
   port: 8020  
+  
 lucky-word: sentenceeee
+neighbour: Word
 
 ---
 eureka:
@@ -26,5 +28,6 @@ eureka:
 spring:
   profiles: word
 
+neighbour: Sentence
 lucky-word: wordddddd
  
