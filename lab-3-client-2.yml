@@ -1,1 +1,7 @@
-
+eureka:
+  instance:
+    hostname: localhost
+    instance-id: client-2
+  client:
+    service-url:
+      default-zone: http://localhost:8011/eureka
