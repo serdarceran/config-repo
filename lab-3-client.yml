@@ -8,6 +8,10 @@ server:
   port: ${PORT:${SERVER_PORT:0}}   # Select any available port if neither port nor server port are specified.
 
 ---
+eureka:
+  instance:
+    instance-id: Sentence
+
 spring:
   profiles: sentence
 server:
@@ -15,6 +19,10 @@ server:
 lucky-word: sentenceeee
 
 ---
+eureka:
+  instance:
+    instance-id: Word
+    
 spring:
   profiles: word
 
