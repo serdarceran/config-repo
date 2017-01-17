@@ -1,1 +1,6 @@
 lucky-word: sueda
+
+eureka:
+  client:
+    service-url:
+      default-zone: 'http://localhost:8011/eureka'
