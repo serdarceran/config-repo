@@ -12,6 +12,6 @@ spring:
   profiles: sentence
 server:
   port: 8020  
-lucky-word:sentenceeee
+lucky-word: sentenceeee
  
  
